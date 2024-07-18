@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+.pic {
+    background-image: url("Images/Group 44.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+    height:100%;
+    position: relative;
+    padding-top: 0;
+    /* padding-bottom: 90px; */
+}
+
+.pic1 {
+    background-image: url("Images/Mask Group 23.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+    height: 100%;
+    position: relative;
+    padding-top: 0;
+}
+.seg {
+    background-image: url("Images/Mask Group 28.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+    height: 100%;
+    position: relative;
+}
+.img22{
+    background-image: url("Images/Mask Group 11.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+    height: 100%;
+    position: relative;
+    margin-top: 0;
+}
+.picture1 {
+    background-image: url("Images/Group 152.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+    height: 100%;
+    position: relative;
+    padding-top: 0;
+}
+.picture2 {
+    background-image: url("Images/img21.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+    height: 100%;
+    position: relative;
+    padding-top: 0;
+}
+.picture3 {
+    background-image: url("Images/img22.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    width: 1366px;
+     height: 100%; 
+    position: relative;
+    padding-top: 0;
+}
+.nav {
+    position: sticky;
+    top:0px;
+}
+.counter {
+    transition: all 2s ease-out;
+   }
+
+ @media (max-width: 640px) {
+    #team-image {
+        display: none;
+    }
+ }
+  
+ @media (max-width: 1000px) {
+    .col-lg-3 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .btn {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+   }
+
+   @media (max-width: 640px) {
+    #team {
+        display: none;
+    }
+ }
+
+ @media (min-width: 992px) {
+    .nav {
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
+   
+   
